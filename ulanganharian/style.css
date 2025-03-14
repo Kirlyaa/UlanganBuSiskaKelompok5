@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8e8d3;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: fixed;
+}
+.hero {
+    background-color: #c4ff00;
+    padding: -10px 20px -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: -90px; 
+    z-index: 1; 
+    position: relative;
+}
+.hero-text {
+    max-width: 50%;
+    text-align: left;
+    margin: 10px;
+    text-align: fixed;
+    margin-left: 60px;
+}
+.hero-text h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #000;
+    text-align: fixed;
+}
+.hero-text p {
+    color: #000;
+    margin: 10px 0;
+}
+.hero-text button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.hero-image {
+    max-width: 100%;
+}
+
+.hero-image img {
+width: 450px;
+border-radius: 10px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 110px 20px 20px 70px; 
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+.footer .column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: fixed;
+    font-size: small;
+}
+.footer .column h3 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    text-align: fixed;
+}
+.footer .column ul {
+    list-style: none;
+    padding: 0;
+    text-align: fixed;
+}
+.footer .column ul li {
+    margin: 5px 0;
+    text-align: fixed;
+}
+.footer .column ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: fixed;
+}
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+}
+.footer .social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+}
+.footer .language-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer .language-selector img {
+    width: 20px;
+}
+.footer .download-apps img {
+    width: 150px;
+    margin: 5px 0;
+}
+.footer.copyright {
+    text-align: center; /* Biar teks ada di tengah */
+    width: 100%; /* Biar elemen melebar penuh */
+    padding: 10px 0; /* Tambahin padding biar lebih rapi */
+    display: flex; /* Aktifin flexbox */
+    justify-content: center; /* Pusatkan teks */
+    align-items: center; /* Pusatkan vertikal */
+}
+
+.containerr {
+    text-align: center;
+}
+
+.footer .social-icons a {
+    color: #000;
+    font-size: 1.5em;
+}
+
+.footer .social-icons a:hover {
+    color: #555;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    background-color: #a1e600; /* Warna hijau neon */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    background-color: #a1e600;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 3px 3px;
+    background-color: transparent;
+    width: fit-content;
+}
+
+.language-selector img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
